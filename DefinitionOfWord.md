@@ -87,13 +87,21 @@ American national Standards Institute(미국표준협회) 의 SQL을 말한다. 
 하지만 각 DB에서 제공하는 함수를 사용함에 있어 제약사항이 있어 이를 적용함에 있어 충분한 논의가 필요하다.
 
 /* ANSI SQL */
+
 SELECT 
+
 	name
+
 	, age
+
 FROM 
+
 	members INNER JOIN sal
+
 					ON members.name = sal.name
+
 WHERE 1=1
+
 ;
 
 ### [ 메타데이터 ]
